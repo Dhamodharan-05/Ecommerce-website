@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="200" viewBox="0 0 300 200">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FF512F"/>
+      <stop offset="100%" style="stop-color:#DD2476"/>
+    </linearGradient>
+    <linearGradient id="bottle" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00C6FB"/>
+      <stop offset="100%" style="stop-color:#005BEA"/>
+    </linearGradient>
+  </defs>
+  <rect width="300" height="200" fill="url(#bg)"/>
+  <path d="M120,60 v80 c0,20 60,20 60,0 v-40 l-20,-40 h-20 z" fill="url(#bottle)"/>
+  <path d="M140,60 h20 v-20 h-20 z" fill="url(#bottle)"/>
+  <circle cx="150" cy="100" r="15" fill="rgba(255,255,255,0.2)"/>
+  <text x="150" y="180" text-anchor="middle" fill="white" font-family="Arial" font-size="16" font-weight="bold">Floor Cleaner</text>
+</svg>
